@@ -75,7 +75,7 @@ class Person
     public $name;
 
     // Constructor to initialize the name property
-    public function __construct($name)
+    public function __construct($name) //__construct() is called when the object is instantiated. It sets the initial value of $name.
     {
         $this->name = $name;
         echo "Object created for {$this->name}.<br>";
